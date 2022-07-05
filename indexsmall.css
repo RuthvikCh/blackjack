@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@font-face {
+    font-family: "GoogleSans";
+    src: url(ProductSans-Light.ttf);
+    font-weight: 300;
+  }
+@font-face {
+    font-family: "GoogleSans";
+    src: url(ProductSans-Regular.ttf);
+    font-weight: 400;
+    }
+@font-face {
+    font-family: "GoogleSans";
+    src: url(ProductSans-Medium.ttf);
+    font-weight: 500;
+        }
+@font-face {
+    font-family: "GoogleSans";
+    src: url(ProductSans-Black.ttf);
+    font-weight: 700;
+        } 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+  
+.roboto{
+    font-family: 'Roboto', sans-serif;
+  }
+.gsans{
+  font-family: GoogleSans;
+  }
+  a{
+    text-decoration: none !important;
+    font-family: GoogleSans;
+    color: black;
+  
+  }
+
+  .maincontainer{
+    padding: 1rem 1rem;
+    width: 96%;
+    margin: auto;
+    margin-top: 1rem;
+    min-height: 80vh;
+    border-radius: 8px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  }
+  
+  .slider{
+    margin: .2rem 0rem;
+  }
+  
+  .slider h3{
+    font-family: GoogleSans;
+    font-size: 1.6rem;
+    margin: 1rem;
+    margin-bottom: 0;
+    margin-left: 0;
+  
+  }
+  .scrollmenu::-webkit-scrollbar {
+    display: none;
+  }
+  div.scrollmenu {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    background-color: #f2f4ff;
+    width: 100%;
+    border-radius: 8px;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px 10px;
+  }
+  
+  div.scrollmenu span {
+    margin: .3rem .48rem;
+    display: inline-block;
+    color: rgb(24, 24, 24);
+    font-family: GoogleSans;
+    text-align: center;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #ededed;
+  }
+
+  .slidercontent{
+    
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin: 15px;
+    padding: 0;
+  }
+  .slidercontent p{
+    margin-bottom: .2rem;
+      }  
+  .slidercontent img{
+    width: 100%; 
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;    
+    height: 20vh !important ;
+  
+  }
+  
+  .geninf{
+    font-family: GoogleSans;
+    font-weight: 400;
+    color: rgb(70, 70, 70);
+  }
+  .btn-lg {
+
+    font-size: 1rem !important;
+    font-family: GoogleSans !important;
+}
+
+.onex{
+  font-size: 2.4rem;
+}
+.twox{
+  width:90%;
+}
+.threex{
+  display: flex; 
+  justify-content:space-between ; 
+  align-items: baseline
+}
+
+
+
+    

@@ -1,7 +1,9 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
+
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="./indexwide.css">
+    <link rel="stylesheet" media="screen and (max-width: 767px)" href="./indexsmall.css">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -19,14 +21,14 @@
     <div class="maincontainer">
 
 
-      <center> <h1 class="gsans" style="font-size: 6rem;">Blackjack</h1> 
-      <img src="./Images/blackjack2.png" alt="" width="90%">
+      <center> <h1 class="gsans onex" >Blackjack</h1> 
+      <img src="./Images/blackjack2.png" alt="" class="twox">
       </center>
 
     <div class="slider " id="slide-el">
-        <div style="display: flex; justify-content:space-between ; align-items: baseline">
-        <h3 style=" font-size: 4rem; "> Your Cards </h3>
-        <p style=" font-size: 2.8rem; padding-right: 1rem; " id="sum-el" class="geninf" ></p>
+        <div class="threex">
+        <h3 class="fourx"> Your Cards </h3>
+        <p id="sum-el" class="geninf fivex" ></p>
         </div> 
 
           <div class="scrollmenu">
@@ -35,7 +37,7 @@
             </div>
           </div>
     </div>
-    <center> <h5 id="message-el" class="gsans " style=" font-size: 3rem; ">Want to play a round?</h5> 
+    <center> <h5 id="message-el" class="gsans sixx ">Want to play a round?</h5> 
 
         <button onclick="startGame()" id="sgbtn-el" class="btn btn-success btn-lg">
           Start Here
