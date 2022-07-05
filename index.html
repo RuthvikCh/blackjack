@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body onload="hide(ncbtnEl),hide(rsbtnEl),hide(cardsEl),hide(sumEl),hide(slideEl)">
+    <!--  -->
+    <div class="maincontainer">
+
+
+      <center> <h1 class="gsans">Blackjack</h1> 
+      <img src="./Images/blackjack2.png" alt="" width="300px">
+      </center>
+
+    <div class="slider " id="slide-el">
+        <div style="display: flex; justify-content:space-between ; align-items: baseline">
+        <h3> Your Cards </h3>
+        <p id="sum-el" class="geninf" ></p>
+        </div> 
+
+          <div class="scrollmenu">
+            <div id="cards-el">
+                <span class='slidercontent'>  <img src='./Images/bj.webp' alt=''><br> Card Name <span>  </span></span>
+            </div>
+          </div>
+    </div>
+    <center> <h5 id="message-el" class="gsans">Want to play a round?</h5> 
+
+        <button onclick="startGame()" id="sgbtn-el" class="btn btn-success">
+          Start Here
+        </button>
+        <button onclick="startGame()" id="rsbtn-el" class="btn btn-danger">
+          RESTART GAME
+        </button>
+        <button onclick="newCard()" id="ncbtn-el" class="btn btn-primary">
+          NEW CARD
+        </button>
+      
+      
+    </center>
+      
+      <script src="index.js"></script>
+
+    </div>
+  </body>
+</html>
